@@ -1,0 +1,92 @@
+{
+"My Living Habits":
+            [
+            {
+                "option": "I live in a flat",
+                "kgCO2": 1
+            },
+            {
+                "option": "I live in a semi-detached home",
+                "kgCO2": 1.5
+            },
+            {
+                "option": "I live in my own home with garden",
+                "kgCO2": 3
+            }
+            ],
+"My Eating Habits":
+            [
+            {
+                "option": "I am vegan or vegeterian",
+                "kgCO2": 1.5
+            },
+            {
+                "option": "I rarely eat meat",
+                "kgCO2": 2
+            },
+            {
+                "option": "I eat meat almost daily",
+                "kgCO2": 2.5
+            }
+            ],
+"My Flying Habits":
+            [
+            {
+                "option": "I do not fly",
+                "kgCO2": 0
+            },
+            {
+                "option": "I fly rarely",
+                "kgCO2": 1
+            },
+            {
+                "option": "I fly often internationaly",
+                "kgCO2": 10
+            }
+            ],
+"My Travel Habits":
+            [
+            {
+                "option": "I walk or bike",
+                "kgCO2": 0
+            },
+            {
+                "option": "I use public transport",
+                "kgCO2": 0.5
+            },
+            {
+                "option": "I drive my own car",
+                "kgCO2": 3
+            }
+            ],
+"My Shopping Habits":
+            [
+            {
+            "option": "I shop local products",
+            "kgCO2": 1.5
+            },
+            {
+            "option": "I shop often local products",
+            "kgCO2": 2.5
+            },
+            {
+            "option": "I shop often international products",
+            "kgCO2": 6.5
+            }
+            ],
+"My Recreation Habits":
+                [
+                {
+                    "option": "I prefer walking around",
+                    "kgCO2": 0.5
+                },
+                {
+                    "option": "I visit restaurants or bars",
+                    "kgCO2": 1
+                },
+                {
+                    "option": "I am into motor sports",
+                    "kgCO2": 2.5
+                }
+                ]
+}

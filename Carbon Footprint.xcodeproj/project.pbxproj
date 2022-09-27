@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D22D3BF728E3445A00CCBE9D /* TransportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D3BF628E3445A00CCBE9D /* TransportViewController.swift */; };
+		D22D3BF928E34A4000CCBE9D /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D3BF828E34A4000CCBE9D /* ShoppingViewController.swift */; };
+		D22D3BFB28E34E5700CCBE9D /* RecreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D3BFA28E34E5700CCBE9D /* RecreationViewController.swift */; };
+		D22D3BFD28E385AD00CCBE9D /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D3BFC28E385AD00CCBE9D /* ResultsViewController.swift */; };
+		D27C9AFD28DB737B00B0D9AF /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D27C9AFC28DB737B00B0D9AF /* data.json */; };
 		D29E372928DA555500541716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E372828DA555500541716 /* AppDelegate.swift */; };
 		D29E372B28DA555500541716 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E372A28DA555500541716 /* SceneDelegate.swift */; };
-		D29E372D28DA555500541716 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E372C28DA555500541716 /* ViewController.swift */; };
-		D29E373028DA555500541716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29E372E28DA555500541716 /* Main.storyboard */; };
+		D29E372D28DA555500541716 /* FlyingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E372C28DA555500541716 /* FlyingViewController.swift */; };
 		D29E373228DA555600541716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29E373128DA555600541716 /* Assets.xcassets */; };
 		D29E373528DA555600541716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29E373328DA555600541716 /* LaunchScreen.storyboard */; };
+		D2A6D71F28DBB07600483560 /* calculationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6D71E28DBB07600483560 /* calculationEngine.swift */; };
+		D2ED391D28E0E5D9007DBC10 /* LivingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED391B28E0E5D9007DBC10 /* LivingViewController.swift */; };
+		D2ED392428E0EF43007DBC10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2ED392328E0EF43007DBC10 /* Main.storyboard */; };
+		D2ED393028E0FF5C007DBC10 /* EatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED392F28E0FF5C007DBC10 /* EatingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D22D3BF628E3445A00CCBE9D /* TransportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportViewController.swift; sourceTree = "<group>"; };
+		D22D3BF828E34A4000CCBE9D /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		D22D3BFA28E34E5700CCBE9D /* RecreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecreationViewController.swift; sourceTree = "<group>"; };
+		D22D3BFC28E385AD00CCBE9D /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		D27C9AFC28DB737B00B0D9AF /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		D29E372528DA555500541716 /* Carbon Footprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carbon Footprint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29E372828DA555500541716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D29E372A28DA555500541716 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D29E372C28DA555500541716 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D29E372F28DA555500541716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D29E372C28DA555500541716 /* FlyingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingViewController.swift; sourceTree = "<group>"; };
 		D29E373128DA555600541716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D29E373428DA555600541716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D29E373628DA555600541716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A6D71E28DBB07600483560 /* calculationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculationEngine.swift; sourceTree = "<group>"; };
+		D2ED391B28E0E5D9007DBC10 /* LivingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingViewController.swift; sourceTree = "<group>"; };
+		D2ED392328E0EF43007DBC10 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D2ED392F28E0FF5C007DBC10 /* EatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,45 @@
 			children = (
 				D29E372828DA555500541716 /* AppDelegate.swift */,
 				D29E372A28DA555500541716 /* SceneDelegate.swift */,
-				D29E372C28DA555500541716 /* ViewController.swift */,
-				D29E372E28DA555500541716 /* Main.storyboard */,
+				D2ED391828E0E571007DBC10 /* Views */,
+				D2ED391A28E0E5BF007DBC10 /* Controllers */,
+				D2ED391928E0E5A6007DBC10 /* Models */,
+				D27C9AFC28DB737B00B0D9AF /* data.json */,
 				D29E373128DA555600541716 /* Assets.xcassets */,
 				D29E373328DA555600541716 /* LaunchScreen.storyboard */,
 				D29E373628DA555600541716 /* Info.plist */,
 			);
 			path = "Carbon Footprint";
+			sourceTree = "<group>";
+		};
+		D2ED391828E0E571007DBC10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2ED392328E0EF43007DBC10 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D2ED391928E0E5A6007DBC10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2A6D71E28DBB07600483560 /* calculationEngine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D2ED391A28E0E5BF007DBC10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2ED391B28E0E5D9007DBC10 /* LivingViewController.swift */,
+				D2ED392F28E0FF5C007DBC10 /* EatingViewController.swift */,
+				D29E372C28DA555500541716 /* FlyingViewController.swift */,
+				D22D3BF628E3445A00CCBE9D /* TransportViewController.swift */,
+				D22D3BF828E34A4000CCBE9D /* ShoppingViewController.swift */,
+				D22D3BFA28E34E5700CCBE9D /* RecreationViewController.swift */,
+				D22D3BFC28E385AD00CCBE9D /* ResultsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D29E373528DA555600541716 /* LaunchScreen.storyboard in Resources */,
+				D2ED392428E0EF43007DBC10 /* Main.storyboard in Resources */,
 				D29E373228DA555600541716 /* Assets.xcassets in Resources */,
-				D29E373028DA555500541716 /* Main.storyboard in Resources */,
+				D27C9AFD28DB737B00B0D9AF /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +187,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D29E372D28DA555500541716 /* ViewController.swift in Sources */,
+				D2ED393028E0FF5C007DBC10 /* EatingViewController.swift in Sources */,
+				D29E372D28DA555500541716 /* FlyingViewController.swift in Sources */,
 				D29E372928DA555500541716 /* AppDelegate.swift in Sources */,
+				D22D3BFD28E385AD00CCBE9D /* ResultsViewController.swift in Sources */,
+				D22D3BFB28E34E5700CCBE9D /* RecreationViewController.swift in Sources */,
+				D2ED391D28E0E5D9007DBC10 /* LivingViewController.swift in Sources */,
+				D22D3BF728E3445A00CCBE9D /* TransportViewController.swift in Sources */,
 				D29E372B28DA555500541716 /* SceneDelegate.swift in Sources */,
+				D22D3BF928E34A4000CCBE9D /* ShoppingViewController.swift in Sources */,
+				D2A6D71F28DBB07600483560 /* calculationEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D29E372E28DA555500541716 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D29E372F28DA555500541716 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D29E373328DA555600541716 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,17 +338,19 @@
 				DEVELOPMENT_TEAM = LX74VW3M27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Carbon Footprint/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Carbon Footprint";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.weirdapps.Carbon-Footprint";
+				PRODUCT_BUNDLE_IDENTIFIER = org.weirdapps.CarbonFootprint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,17 +368,19 @@
 				DEVELOPMENT_TEAM = LX74VW3M27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Carbon Footprint/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Carbon Footprint";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.weirdapps.Carbon-Footprint";
+				PRODUCT_BUNDLE_IDENTIFIER = org.weirdapps.CarbonFootprint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
